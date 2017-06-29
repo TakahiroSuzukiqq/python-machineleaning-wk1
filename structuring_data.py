@@ -38,3 +38,15 @@ def Key_Stats(gather="Total Debt/Equity (mrq)"):
 
 
 Key_Stats()
+
+
+#note 
+#1
+#The df variable is used to store the creation of a new "DataFrame" object from Pandas, where we specify the columns to be date, unix, ticker, and DE ratio
+
+#2
+#The Try here identifies the value as usual, then we're re-defining our DataFrame object as the previous DataFrame object with the new data appended to it
+
+#3
+#specifying a custom name for the csv file, then using pandas to_csv capability to output the Data Frame to an actual CSV file
+#Running this then saves the dataframe as a CSV spreadsheet for us. We want to save the data since we really just need to access and store the data once
